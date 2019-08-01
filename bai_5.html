@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let diem = Number(prompt("nhập điểm kiểm tra: "));
+    let diemGiuaKy = Number(prompt("nhập điểm giữa kỳ: "));
+    let diemCuoiKy = Number(prompt("nhập điểm cuối kỳ: "));
+    let trungBinh = (diem + diemCuoiKy + diemGiuaKy) / 3;
+    if (trungBinh => 8.0 && trungBinh <= 10.0){
+        alert("học sinh giỏi");
+    }else if (trungBinh =>6.5){
+        alert("học sinh tiên tiến");
+    }else {
+        alert("học sinh khá");
+    }
+</script>
+</body>
+</html>
